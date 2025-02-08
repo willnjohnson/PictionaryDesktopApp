@@ -1,0 +1,19 @@
+<Window x:Class="PictionaryDesktopApp.Views.GameLobbyView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Game Lobby" 
+        Width="1024" 
+        Height="768"
+        WindowStartupLocation="CenterScreen"
+        Background="#2e2e2e" 
+        Foreground="White">
+
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Content="Host Game" Width="200" Height="50" Background="#4CAF50" Foreground="White" FontSize="16" Margin="0,0,0,20" Click="HostGameButton_Click"/>
+            <TextBox Name="RoomNameTextBox" Width="200" Height="40" VerticalAlignment="Top" Margin="0,20,0,20" Background="#3a3a3a" Foreground="White" BorderBrush="#4CAF50" FontSize="14"/>
+            <Button Content="Join Game" Width="200" Height="50" Background="#2196F3" Foreground="White" FontSize="16" Margin="0,0,0,20" Click="JoinGameButton_Click"/>
+            <ListBox Name="AvailableGamesListBox" Height="150" Width="200" Background="#3a3a3a" Foreground="White" BorderBrush="#4CAF50"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,9 +1,8 @@
 ﻿<Application x:Class="PictionaryDesktopApp.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:PictionaryDesktopApp"
-             StartupUri="MainWindow.xaml">
+             StartupUri="Views/GameLobbyView.xaml">
     <Application.Resources>
-         
+        <!-- Resources can go here -->
     </Application.Resources>
 </Application>

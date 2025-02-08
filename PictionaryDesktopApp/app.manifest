@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3">
+	<assemblyIdentity version="1.0.0.0" name="PictionaryDesktopApp.app"/>
+	<trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
+		<security>
+			<requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+				<requestedExecutionLevel level="asInvoker" uiAccess="false"/>
+			</requestedPrivileges>
+		</security>
+	</trustInfo>
+
+	<dependencies>
+		<!-- Windows 6.0+ Common Controls -->
+		<dependency>
+			<dependentAssembly>
+				<assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" processorArchitecture="*"/>
+			</dependentAssembly>
+		</dependency>
+
+		<!-- Optional: Enable support for modern UI elements -->
+		<dependency>
+			<dependentAssembly>
+				<assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" />
+			</dependentAssembly>
+		</dependency>
+	</dependencies>
+
+	<!-- Optional: Specify DPI settings -->
+	<application xmlns="urn:schemas-microsoft-com:asm.v3">
+		<windowsSettings>
+			<dpiAware xmlns="urn:schemas-microsoft-com:asm.v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dpiAware="true/pm"/>
+		</windowsSettings>
+	</application>
+
+</assembly>
